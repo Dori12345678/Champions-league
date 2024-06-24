@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>winners</title>
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+            body::before {
+                content: '';
+                position: absolute;
+                top: -4%;
+                left: -2.5%;
+                width: 105%;
+                height: 105%;
+                background-image: url('images/הורדה (1).jpeg');
+                background-size: cover;
+                filter: blur(20px);
+                z-index: -1;
+            }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+            font-family: Georgia;
+            position: absolute;
+            top: 20%;
+            left: 25%;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            color: ghostwhite;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: black;
+        }
+        h1 {
+            color: ghostwhite;
+            font-family: Georgia;
+            position: absolute;
+            top: 2%;
+            left: 35%;
+        }
+    </style>
+</head>
+<body>
+    <h1>winners from previous years</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Season</th>
+                <th>Winner</th>
+                <th>Score</th>
+                <th>Runner-Up</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2022-2023</td>
+                <td>Manchester City</td>
+                <td>1-0</td>
+                <td>Inter Milan</td>
+            </tr>
+            <tr>
+                <td>2021-2022</td>
+                <td>Real Madrid</td>
+                <td>1-0</td>
+                <td>Liverpool</td>
+            </tr>
+            <tr>
+                <td>2020-2021</td>
+                <td>Chelsea</td>
+                <td>1-0</td>
+                <td>Manchester City</td>
+            </tr>
+            <tr>
+                <td>2019-2020</td>
+                <td>Bayern Munich</td>
+                <td>1-0</td>
+                <td>Paris Saint-Germain</td>
+            </tr>
+            <tr>
+                <td>2018-2019</td>
+                <td>Liverpool</td>
+                <td>2-0</td>
+                <td>Tottenham Hotspur</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
